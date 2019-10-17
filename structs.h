@@ -1,4 +1,7 @@
 struct shoes {
-  char[100] name;
+  char * name;
   int size;
 };
+
+void printShoe(struct shoes *s);
+struct shoes createExample();
